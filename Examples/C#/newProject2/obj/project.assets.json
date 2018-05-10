@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JMack_000\\.nuget\\packages\\": {},
+    "C:\\Users\\JMack\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JMack_000\\Documents\\GitHub\\LogolsFebruary20182\\LogolsFebruary2018\\Examples\\C#\\newProject2\\newProject2.csproj",
+      "projectUniqueName": "c:\\Code\\Logols\\May\\Examples\\C#\\newProject2\\newProject2.csproj",
       "projectName": "newProject2",
-      "projectPath": "C:\\Users\\JMack_000\\Documents\\GitHub\\LogolsFebruary20182\\LogolsFebruary2018\\Examples\\C#\\newProject2\\newProject2.csproj",
-      "packagesPath": "C:\\Users\\JMack_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JMack_000\\Documents\\GitHub\\LogolsFebruary20182\\LogolsFebruary2018\\Examples\\C#\\newProject2\\obj\\",
+      "projectPath": "c:\\Code\\Logols\\May\\Examples\\C#\\newProject2\\newProject2.csproj",
+      "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
+      "outputPath": "c:\\Code\\Logols\\May\\Examples\\C#\\newProject2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\JMack_000\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JMack\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

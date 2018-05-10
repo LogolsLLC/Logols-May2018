@@ -12825,23 +12825,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JMack_000\\.nuget\\packages\\": {},
+    "C:\\Users\\JMack\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\Assessment\\Assessment.API\\Assessment.API.csproj",
+      "projectUniqueName": "c:\\Code\\Logols\\May\\Assessment\\Assessment.API\\Assessment.API.csproj",
       "projectName": "Assessment.API",
-      "projectPath": "C:\\Code\\Assessment\\Assessment.API\\Assessment.API.csproj",
-      "packagesPath": "C:\\Users\\JMack_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Assessment\\Assessment.API\\obj\\",
+      "projectPath": "c:\\Code\\Logols\\May\\Assessment\\Assessment.API\\Assessment.API.csproj",
+      "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
+      "outputPath": "c:\\Code\\Logols\\May\\Assessment\\Assessment.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\JMack_000\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JMack\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12852,11 +12852,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Code\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj": {
-              "projectPath": "C:\\Code\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj"
+            "c:\\Code\\Logols\\May\\Assessment\\Assessment.DAL\\Assessment.DAL.csproj": {
+              "projectPath": "c:\\Code\\Logols\\May\\Assessment\\Assessment.DAL\\Assessment.DAL.csproj"
             },
-            "C:\\Code\\Assessment\\Assessment.DAL\\Assessment.DAL.csproj": {
-              "projectPath": "C:\\Code\\Assessment\\Assessment.DAL\\Assessment.DAL.csproj"
+            "c:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj": {
+              "projectPath": "c:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj"
             }
           }
         }
