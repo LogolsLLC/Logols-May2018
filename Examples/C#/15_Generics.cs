@@ -1,8 +1,8 @@
-﻿namespace TimeMachine.Console
-{
-    using System;
-    using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
+namespace TimeMachine.CommandLine
+{
     class Program
     {
         static void Main(string[] args)
