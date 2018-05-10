@@ -1,10 +1,10 @@
-﻿namespace TimeMachine.Console
-{
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Linq;
-    using Dapper;
+﻿using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using Dapper;
 
+namespace TimeMachine.CommandLine
+{
     public class TimeTravelLogRepository : Repository
     {
         public IEnumerable<TimeTravelLog> GetAll()

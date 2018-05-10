@@ -1,11 +1,11 @@
-﻿namespace TimeMachine.Console
-{
-    using MySql.Data.MySqlClient;
-    using System;
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Text;
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Text;
 
+namespace TimeMachine.CommandLine
+{
     public class TimeTravelLog
     {
         public int TimeTravelLogId { get; set; }
