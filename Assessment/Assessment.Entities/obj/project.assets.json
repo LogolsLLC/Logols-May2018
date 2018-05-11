@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj",
+      "projectUniqueName": "C:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj",
       "projectName": "Assessment.Entities",
-      "projectPath": "c:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj",
+      "projectPath": "C:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj",
       "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\obj\\",
+      "outputPath": "C:\\Code\\Logols\\May\\Assessment\\Assessment.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

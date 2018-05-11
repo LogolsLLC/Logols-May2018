@@ -1,10 +1,10 @@
-﻿namespace ZombieReport.Console
-{
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Linq;
-    using Dapper;
+﻿using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using Dapper;
 
+namespace ZombieReport.CommandLine
+{
     public class PersonStatusRepository : Repository
     {
         public IEnumerable<PersonStatus> GetAll()

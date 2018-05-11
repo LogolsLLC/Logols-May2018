@@ -18,3 +18,13 @@ C:\Users\JMack_000\Documents\GitHub\LogolsFebruary20182\LogolsFebruary2018\Exerc
 C:\Users\JMack_000\Documents\GitHub\LogolsFebruary20182\LogolsFebruary2018\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.AssemblyInfo.cs
 C:\Users\JMack_000\Documents\GitHub\LogolsFebruary20182\LogolsFebruary2018\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.dll
 C:\Users\JMack_000\Documents\GitHub\LogolsFebruary20182\LogolsFebruary2018\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.pdb
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\bin\Debug\netcoreapp2.0\ZombieReport.WebAPI.deps.json
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\bin\Debug\netcoreapp2.0\ZombieReport.WebAPI.runtimeconfig.json
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\bin\Debug\netcoreapp2.0\ZombieReport.WebAPI.runtimeconfig.dev.json
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\bin\Debug\netcoreapp2.0\ZombieReport.WebAPI.dll
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\bin\Debug\netcoreapp2.0\ZombieReport.WebAPI.pdb
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.csproj.CoreCompileInputs.cache
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.AssemblyInfoInputs.cache
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.AssemblyInfo.cs
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.dll
+C:\Code\Logols\May\Exercises\webapi\ZombieReport.WebAPI\obj\Debug\netcoreapp2.0\ZombieReport.WebAPI.pdb

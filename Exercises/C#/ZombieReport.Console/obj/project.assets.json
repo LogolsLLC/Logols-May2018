@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\Logols\\May\\Exercises\\C#\\ZombieReport.Console\\ZombieReport.Console.csproj",
+      "projectUniqueName": "C:\\Code\\Logols\\May\\Exercises\\C#\\ZombieReport.Console\\ZombieReport.Console.csproj",
       "projectName": "ZombieReport.Console",
-      "projectPath": "c:\\Code\\Logols\\May\\Exercises\\C#\\ZombieReport.Console\\ZombieReport.Console.csproj",
+      "projectPath": "C:\\Code\\Logols\\May\\Exercises\\C#\\ZombieReport.Console\\ZombieReport.Console.csproj",
       "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\Logols\\May\\Exercises\\C#\\ZombieReport.Console\\obj\\",
+      "outputPath": "C:\\Code\\Logols\\May\\Exercises\\C#\\ZombieReport.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

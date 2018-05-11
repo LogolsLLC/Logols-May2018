@@ -6,3 +6,11 @@ C:\Code\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entit
 C:\Code\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.AssemblyInfo.cs
 C:\Code\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.dll
 C:\Code\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.pdb
+C:\Code\Logols\May\Assessment\Assessment.Entities\bin\Debug\netstandard2.0\Assessment.Entities.deps.json
+C:\Code\Logols\May\Assessment\Assessment.Entities\bin\Debug\netstandard2.0\Assessment.Entities.dll
+C:\Code\Logols\May\Assessment\Assessment.Entities\bin\Debug\netstandard2.0\Assessment.Entities.pdb
+C:\Code\Logols\May\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.csproj.CoreCompileInputs.cache
+C:\Code\Logols\May\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.AssemblyInfoInputs.cache
+C:\Code\Logols\May\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.AssemblyInfo.cs
+C:\Code\Logols\May\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.dll
+C:\Code\Logols\May\Assessment\Assessment.Entities\obj\Debug\netstandard2.0\Assessment.Entities.pdb

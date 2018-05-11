@@ -16,6 +16,18 @@
           "lib/netstandard2.0/Dapper.dll": {}
         }
       },
+      "Google.Protobuf/3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -1829,10 +1841,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.SqlServer.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/2.0.0": {
+      "Microsoft.Extensions.Configuration/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.2"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
@@ -1841,7 +1853,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0"
@@ -1904,11 +1916,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.FileExtensions/2.0.0": {
+      "Microsoft.Extensions.Configuration.FileExtensions/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.0",
-          "Microsoft.Extensions.FileProviders.Physical": "2.0.0"
+          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.FileProviders.Physical": "2.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
@@ -1930,11 +1942,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Ini.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Json/2.0.0": {
+      "Microsoft.Extensions.Configuration.Json/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.0.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "2.0.0",
+          "Microsoft.Extensions.Configuration": "2.0.2",
+          "Microsoft.Extensions.Configuration.FileExtensions": "2.0.2",
           "Newtonsoft.Json": "10.0.1"
         },
         "compile": {
@@ -2022,7 +2034,7 @@
           "lib/netcoreapp2.0/Microsoft.Extensions.DiagnosticAdapter.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0"
@@ -2058,11 +2070,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
+      "Microsoft.Extensions.FileProviders.Physical/2.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.0",
-          "Microsoft.Extensions.FileSystemGlobbing": "2.0.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.1",
+          "Microsoft.Extensions.FileSystemGlobbing": "2.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
@@ -2071,7 +2083,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
         }
       },
-      "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
+      "Microsoft.Extensions.FileSystemGlobbing/2.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
@@ -2684,9 +2696,10 @@
           }
         }
       },
-      "MySql.Data/6.10.6": {
+      "MySql.Data/8.0.11": {
         "type": "package",
         "dependencies": {
+          "Google.Protobuf": "3.5.1",
           "System.Configuration.ConfigurationManager": "4.4.0",
           "System.Security.Permissions": "4.4.0",
           "System.Text.Encoding.CodePages": "4.0.1"
@@ -2696,73 +2709,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/MySql.Data.dll": {}
-        },
-        "contentFiles": {
-          "contentFiles/any/netcoreapp2.0/app.config.transform": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlCommand.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlCommandBuilder.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlConnection.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlConnectionStringBuilder.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlDataAdapter.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlDataReader.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlException.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlHelper.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlParameter.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlParameterCollection.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/docs/MySqlTransaction.xml": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netcoreapp2.0/web.config.transform": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
         }
       },
       "NETStandard.Library/2.0.0": {
@@ -4895,6 +4841,19 @@
         "lib/netstandard2.0/Dapper.xml"
       ]
     },
+    "Google.Protobuf/3.5.1": {
+      "sha512": "f2k1VNaB9bfvEsvARzzEL1TZiIpL33KKK3JMH7UANlPlJVptuvsk4qpBZEnz0pORWZOdUHlVwMQuUzFqjJYCxA==",
+      "type": "package",
+      "path": "google.protobuf/3.5.1",
+      "files": [
+        "google.protobuf.3.5.1.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/netstandard1.0/Google.Protobuf.dll",
+        "lib/netstandard1.0/Google.Protobuf.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -6347,25 +6306,27 @@
         "microsoft.extensions.caching.sqlserver.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration/2.0.0": {
-      "sha512": "SsI4RqI8EH00+cYO96tbftlh87sNUv1eeyuBU1XZdQkG0RrHAOjWgl7P0FoLeTSMXJpOnfweeOWj2d1/5H3FxA==",
+    "Microsoft.Extensions.Configuration/2.0.2": {
+      "sha512": "n5HeFXiEFONntcwVFvEGY5dnB8VRqGD20RrdB9omX6dAAUSIV/sGwGhaLV5neOt/uvhc64VDmKjIjdffC6TX5A==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/2.0.0",
+      "path": "microsoft.extensions.configuration/2.0.2",
       "files": [
+        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.2.0.2.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
-      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.2": {
+      "sha512": "IoTZQU9aQOHr9zQbwozyzWq25eFbu/EcUZnPAMum6hh0Nl2RuM7ieziNLk3xk+c2g8YnnmxiA3VEvVaCFYCoTQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.2",
       "files": [
+        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
@@ -6413,14 +6374,15 @@
         "microsoft.extensions.configuration.environmentvariables.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.FileExtensions/2.0.0": {
-      "sha512": "ebFbu+vsz4rzeAICWavk9a0FutWVs7aNZap5k/IVxVhu2CnnhOp/H/gNtpzplrqjYDaNYdmv9a/DoUvH2ynVEQ==",
+    "Microsoft.Extensions.Configuration.FileExtensions/2.0.2": {
+      "sha512": "Axc13qp2kYf6VUmUBCMmRCGIc1CmWC5xQ33MD9D8nB9hYZrbjh6IqNj10fHDG1UE+4L24H8fSeYJCMyGfa+VZg==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.fileextensions/2.0.0",
+      "path": "microsoft.extensions.configuration.fileextensions/2.0.2",
       "files": [
+        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
-        "microsoft.extensions.configuration.fileextensions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.2.0.2.nupkg.sha512",
         "microsoft.extensions.configuration.fileextensions.nuspec"
       ]
     },
@@ -6435,14 +6397,15 @@
         "microsoft.extensions.configuration.ini.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Json/2.0.0": {
-      "sha512": "thPz4SckRGNqeLbdvJ619YxRFSkWuL1K5QqTMb3TVdEwjQj4O39yfUtjtI/XlWJiY7JKK4MUKAiQZVYc8ohKKg==",
+    "Microsoft.Extensions.Configuration.Json/2.0.2": {
+      "sha512": "dbx6tQ0uWc/8GoH2HJUaRtPG0X8puyeZIbXatu4I0b+xV23oFv7FdegPRlYrwnuyinqhAD3G2uR1YtJG0BgiNg==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.json/2.0.0",
+      "path": "microsoft.extensions.configuration.json/2.0.2",
       "files": [
+        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
-        "microsoft.extensions.configuration.json.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.json.2.0.2.nupkg.sha512",
         "microsoft.extensions.configuration.json.nuspec"
       ]
     },
@@ -6518,14 +6481,14 @@
         "microsoft.extensions.diagnosticadapter.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/2.0.0": {
-      "sha512": "Z0AK+hmLO33WAXQ5P1uPzhH7z5yjDHX/XnUefXxE//SyvCb9x4cVjND24dT5566t/yzGp8/WLD7EG9KQKZZklQ==",
+    "Microsoft.Extensions.FileProviders.Abstractions/2.0.1": {
+      "sha512": "Gzc5yXvwIrKpdti0Ev4jC0inVrGZpI86eLZorMVRqAPXowR8JDRbcHjhmID2EqA4rdhL/IsfD42+4upKpHULDw==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/2.0.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.2.0.1.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
@@ -6551,25 +6514,25 @@
         "microsoft.extensions.fileproviders.embedded.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Physical/2.0.0": {
-      "sha512": "DKO2j2socZbHNCCVEWsLVpB3AQIIzKYFNyITVeWdA1jQ829GJIQf4MUD04+1c+Q2kbK03pIKQZmEy4CGIfgDZw==",
+    "Microsoft.Extensions.FileProviders.Physical/2.0.1": {
+      "sha512": "h+6bcXYlGldl7BUhnQKFxL2sMfeg9Gr/AuVexYOCYWmzDsc4iyUoy3NL7i2vkG209wd0ZXf+pZzRDwGPFhmlSw==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/2.0.0",
+      "path": "microsoft.extensions.fileproviders.physical/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.2.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.2.0.1.nupkg.sha512",
         "microsoft.extensions.fileproviders.physical.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileSystemGlobbing/2.0.0": {
-      "sha512": "UC87vRDUB7/vSaNY/FVhbdAyRkfFBTkYmcUoglxk6TyTojhSqYaG5pZsoP4e1ZuXktFXJXJBTvK8U/QwCo0z3g==",
+    "Microsoft.Extensions.FileSystemGlobbing/2.0.1": {
+      "sha512": "q7KsG2kjwo2Ps0WdV7MFh64cQS0UHikV8qv4HQrUfWQyxim5vNmLzAbuduarS9QWbhRHTtUanx+ohyAQdumdnw==",
       "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/2.0.0",
+      "path": "microsoft.extensions.filesystemglobbing/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.2.0.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.2.0.1.nupkg.sha512",
         "microsoft.extensions.filesystemglobbing.nuspec"
       ]
     },
@@ -7538,85 +7501,20 @@
         "version.txt"
       ]
     },
-    "MySql.Data/6.10.6": {
-      "sha512": "dcod4CxVkrRANjfVWS7um5HTyLFJhyBGp5hVSdmrhhZZiP9cX3ZNfoZ0W88f6lDWExJuILsAIbctZirQ9mpjQQ==",
+    "MySql.Data/8.0.11": {
+      "sha512": "P5zKcnM2SVtdHD6gfReymJguIYLhNL5Og8Qm5TC9MEsSupsAYrRu4AB4nsbalrjqqv8VHBqVREWsXg9lY+q03A==",
       "type": "package",
-      "path": "mysql.data/6.10.6",
+      "path": "mysql.data/8.0.11",
       "files": [
-        "content/app.config.transform",
-        "content/docs/MySqlCommand.xml",
-        "content/docs/MySqlCommandBuilder.xml",
-        "content/docs/MySqlConnection.xml",
-        "content/docs/MySqlConnectionStringBuilder.xml",
-        "content/docs/MySqlDataAdapter.xml",
-        "content/docs/MySqlDataReader.xml",
-        "content/docs/MySqlException.xml",
-        "content/docs/MySqlHelper.xml",
-        "content/docs/MySqlParameter.xml",
-        "content/docs/MySqlParameterCollection.xml",
-        "content/docs/MySqlTransaction.xml",
-        "content/web.config.transform",
-        "contentFiles/any/net452/app.config.transform",
-        "contentFiles/any/net452/docs/MySqlCommand.xml",
-        "contentFiles/any/net452/docs/MySqlCommandBuilder.xml",
-        "contentFiles/any/net452/docs/MySqlConnection.xml",
-        "contentFiles/any/net452/docs/MySqlConnectionStringBuilder.xml",
-        "contentFiles/any/net452/docs/MySqlDataAdapter.xml",
-        "contentFiles/any/net452/docs/MySqlDataReader.xml",
-        "contentFiles/any/net452/docs/MySqlException.xml",
-        "contentFiles/any/net452/docs/MySqlHelper.xml",
-        "contentFiles/any/net452/docs/MySqlParameter.xml",
-        "contentFiles/any/net452/docs/MySqlParameterCollection.xml",
-        "contentFiles/any/net452/docs/MySqlTransaction.xml",
-        "contentFiles/any/net452/web.config.transform",
-        "contentFiles/any/netcoreapp2.0/app.config.transform",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlCommand.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlCommandBuilder.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlConnection.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlConnectionStringBuilder.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlDataAdapter.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlDataReader.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlException.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlHelper.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlParameter.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlParameterCollection.xml",
-        "contentFiles/any/netcoreapp2.0/docs/MySqlTransaction.xml",
-        "contentFiles/any/netcoreapp2.0/web.config.transform",
-        "contentFiles/any/netstandard1.3/app.config.transform",
-        "contentFiles/any/netstandard1.3/docs/MySqlCommand.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlCommandBuilder.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlConnection.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlConnectionStringBuilder.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlDataAdapter.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlDataReader.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlException.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlHelper.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlParameter.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlParameterCollection.xml",
-        "contentFiles/any/netstandard1.3/docs/MySqlTransaction.xml",
-        "contentFiles/any/netstandard1.3/web.config.transform",
-        "contentFiles/any/netstandard2.0/app.config.transform",
-        "contentFiles/any/netstandard2.0/docs/MySqlCommand.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlCommandBuilder.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlConnection.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlConnectionStringBuilder.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlDataAdapter.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlDataReader.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlException.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlHelper.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlParameter.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlParameterCollection.xml",
-        "contentFiles/any/netstandard2.0/docs/MySqlTransaction.xml",
-        "contentFiles/any/netstandard2.0/web.config.transform",
         "lib/net452/MySql.Data.dll",
         "lib/net452/MySql.Data.xml",
         "lib/netcoreapp2.0/MySql.Data.dll",
         "lib/netcoreapp2.0/MySql.Data.xml",
-        "lib/netstandard1.3/MySql.Data.dll",
-        "lib/netstandard1.3/MySql.Data.xml",
+        "lib/netstandard1.6/MySql.Data.dll",
+        "lib/netstandard1.6/MySql.Data.xml",
         "lib/netstandard2.0/MySql.Data.dll",
         "lib/netstandard2.0/MySql.Data.xml",
-        "mysql.data.6.10.6.nupkg.sha512",
+        "mysql.data.8.0.11.nupkg.sha512",
         "mysql.data.nuspec"
       ]
     },
@@ -12843,9 +12741,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.3",
+      "Microsoft.Extensions.Configuration.Json >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0",
       "dapper >= 1.50.4",
-      "mysql.data >= 6.10.6"
+      "mysql.data >= 8.0.11"
     ]
   },
   "packageFolders": {
@@ -12855,11 +12754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\Logols\\May\\Exercises\\webapi\\ZombieReport.WebAPI\\ZombieReport.WebAPI.csproj",
+      "projectUniqueName": "C:\\Code\\Logols\\May\\Exercises\\webapi\\ZombieReport.WebAPI\\ZombieReport.WebAPI.csproj",
       "projectName": "ZombieReport.WebAPI",
-      "projectPath": "c:\\Code\\Logols\\May\\Exercises\\webapi\\ZombieReport.WebAPI\\ZombieReport.WebAPI.csproj",
+      "projectPath": "C:\\Code\\Logols\\May\\Exercises\\webapi\\ZombieReport.WebAPI\\ZombieReport.WebAPI.csproj",
       "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\Logols\\May\\Exercises\\webapi\\ZombieReport.WebAPI\\obj\\",
+      "outputPath": "C:\\Code\\Logols\\May\\Exercises\\webapi\\ZombieReport.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12891,6 +12790,10 @@
             "target": "Package",
             "version": "[2.0.3, )"
           },
+          "Microsoft.Extensions.Configuration.Json": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.0.0, )",
@@ -12902,7 +12805,7 @@
           },
           "mysql.data": {
             "target": "Package",
-            "version": "[6.10.6, )"
+            "version": "[8.0.11, )"
           }
         },
         "imports": [

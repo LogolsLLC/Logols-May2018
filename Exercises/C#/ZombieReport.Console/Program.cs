@@ -1,7 +1,8 @@
-﻿namespace ZombieReport.Console
+﻿using System;
+using System.Collections.Generic;
+
+namespace ZombieReport.CommandLine
 {
-    using System;
-    using System.Collections.Generic;
     class Program
     {
         static void Main(string[] args)
