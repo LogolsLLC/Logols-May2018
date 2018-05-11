@@ -1,14 +1,25 @@
-﻿namespace TimeMachine.WebAPI
-{
-    using MySql.Data.MySqlClient;
-    using System;
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Text;
+﻿using Microsoft.Extensions.Configuration;
+using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.IO;
+using System.Text;
 
+namespace TimeMachine.WebAPI
+{
     public class Repository
     {
-        private string connectionString = @"server=localhost;port=3306;database=Assessment;user=root;password=password";
+        private string connectionString;
+
+        public Repository()
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+            var connectionStringConfig = builder.Build();
+            connectionString = connectionStringConfig.GetConnectionString("DefaultConnection");
+        }
         public IDbConnection Connection
         {
             get
