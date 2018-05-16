@@ -2,15 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { LogComponent } from './log.component';
 import { TimeMachineComponent } from './timeMachine.component';
+import { TravelerComponent } from './traveler.component';
+import { TravelerService } from './services/travelerService';
 import { LogService } from './services/logService';
 
 const appRoutes: Routes = [
   { path: 'log', component: LogComponent },
-  { path: 'timemachine', component: TimeMachineComponent },
+  { path: 'timeMachine', component: TimeMachineComponent },
+  { path: 'traveler', component: TravelerComponent },
+  { path: 'traveler/:id', component: TravelerComponent },
   { path: '', redirectTo: '/timemachine', pathMatch: 'full' }
 ];
 
@@ -18,18 +23,21 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LogComponent,
-    TimeMachineComponent
+    TimeMachineComponent,
+    TravelerComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
     )
   ],
   providers: [
-    LogService
+    LogService,
+    TravelerService
   ],
   bootstrap: [AppComponent]
 })

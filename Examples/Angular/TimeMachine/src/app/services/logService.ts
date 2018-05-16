@@ -16,12 +16,12 @@ export class LogService {
         return this.http.get<Log>(this.url + id);
     }
 
-    public update(status: Log) {
-        return this.http.put(this.url, status);
+    public update(log: Log) {
+        return this.http.put(this.url, log);
     }
 
-    public insert(status: Log) {
-        return this.http.post(this.url, status);
+    public insert(log: Log) {
+        return this.http.post(this.url, log);
     }
 
     public delete(id: number) {

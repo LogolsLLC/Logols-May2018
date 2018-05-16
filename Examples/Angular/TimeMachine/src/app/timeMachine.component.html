@@ -10,20 +10,22 @@
 Traveler:
 </div>
 <div>
-  <select id="Traveler">
-    <option value="1">Tom Masters</option>
-    <option value="2">Kim Smith</option>
-    <option value="3">Ben Kingsman</option>
+  <select id="Traveler" [(ngModel)]="log.timeTravelerId" (change)="timeTravelerChanged()">
+    <option *ngFor="let traveler of travelers" value="{{traveler.timeTravelerId}}">{{traveler.firstName}} {{traveler.lastName}}</option>
   </select>
+  <span>
+    <a routerLink="/traveler" routerLinkActive="active">Add</a>
+    <span id="EditLink" style="display:none;">| <a routerLink="/traveler/{{currentTravelerId}}" routerLinkActive="active">Edit</a></span>
+  </span>
 </div>
 <div>
   Year:
 </div>
 <div>
-  <input id="Year" type="text" />
+  <input id="Year" type="text" [(ngModel)]="log.travelToYear" />
 </div>
 <div>
-  <button>Go</button>
+  <button (click)="insertClick()">Go</button>
 </div>
 <div>
   <a routerLink="/log" routerLinkActive="active">Time Travel Log</a>
