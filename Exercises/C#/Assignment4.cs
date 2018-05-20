@@ -1,4 +1,4 @@
-﻿namespace TestLoop
+﻿namespace ZombieReport.CommandLine
 {
     using System;
     using System.Collections.Generic;
@@ -15,26 +15,13 @@
             int counter = 0;
             int[] statuses = {1, 4, 3, 2, 1, 2};
             string[] names = {"Bob", "Tim", "Tom", "Barb", "Kent", "Carlos"};
-            List<string> alive = new List<string>();
+            List<string> statusDescriptions = new List<string>();
 
             for(counter = 0; counter < statuses.Length; counter++)
             {
-                if(statuses[counter] == 1)
-                {
-                    alive.Add(names[counter]);
-                }
                 string status = GetStatusDescription(statuses[counter], names[counter]);
+                statusDescriptions.Add(status);
                 WriteStatus(status);
-            }
-            WriteAlive(alive);
-        }
-
-        private static void WriteAlive(List<string> alive)
-        {
-            Console.WriteLine("Currently Alive:");
-            foreach(string name in alive)
-            {
-                Console.WriteLine(name);
             }
         }
 

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ZombieReport.CommandLine
+﻿namespace ZombieReport.CommandLine
 {
+    using System;
     class Program
     {
         static void Main(string[] args)
@@ -10,59 +8,45 @@ namespace ZombieReport.CommandLine
             /*
             A status report is needed of all government employees.  Statuses are:
             1: Alive, 2: Zombie, 3: Dead, 4: Unknown
-            Modify your previous program to create a generic list of names of everyone who is alive.
-            At the end of the program, list everyone still alive.
+            Given an int variable, write if else statements and console out the persons status.
+            Using the same int variable, modify your code to perform the same operation with a switch statement.
              */
-            int counter = 0;
-            int[] statuses = {1, 4, 3, 2, 1, 2};
-            string[] names = {"Bob", "Tim", "Tom", "Barb", "Kent", "Carlos"};
-            List<string> alive = new List<string>();
-
-            for(counter = 0; counter < statuses.Length; counter++)
+            int value = 2;
+            
+            //if else conditions
+            if(value == 1)
             {
-                if(statuses[counter] == 1)
-                {
-                    alive.Add(names[counter]);
-                }
-                string status = GetStatusDescription(statuses[counter], names[counter]);
-                WriteStatus(status);
+                Console.WriteLine("Status: Alive");
             }
-            WriteAlive(alive);
-        }
-
-        private static void WriteAlive(List<string> alive)
-        {
-            Console.WriteLine("Currently Alive:");
-            foreach(string name in alive)
+            else if (value == 2)
             {
-                Console.WriteLine(name);
+                Console.WriteLine("Status: Zombie");
             }
-        }
+            else if (value == 3)
+            {
+                Console.WriteLine ("Status: Dead");
+            }
+            else if (value == 4)
+            {
+                Console.WriteLine("Status: Unknown");
+            } 
 
-        private static void WriteStatus(string status)
-        {
-            Console.WriteLine(status);
-        }
-
-        private static string GetStatusDescription(int status, string name)
-        {
-            string statusDescription = string.Empty;
-            switch (status)
+            //switch statement
+            switch (value)
             {
                 case 1:
-                    statusDescription = "Status: Alive";
+                    Console.WriteLine("Status: Alive");
                     break;
                 case 2:
-                    statusDescription = "Status: Zombie";
+                    Console.WriteLine("Status: Zombie");
                     break;
                 case 3:
-                    statusDescription = "Status: Dead";
+                    Console.WriteLine ("Status: Dead");
                     break;
                 case 4:
-                    statusDescription = "Status: Unknown";
+                    Console.WriteLine("Status: Unknown");
                     break;
-            }
-            return name + " " + statusDescription;
+            } 
         }
     }
 }

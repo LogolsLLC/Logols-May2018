@@ -1,4 +1,4 @@
-﻿namespace TestLoop
+﻿namespace ZombieReport.CommandLine
 {
     using System;
     class Program
