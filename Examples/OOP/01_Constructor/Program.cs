@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TimeMachine.Console
+namespace TimeMachine
 {
     class Program
     {

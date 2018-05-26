@@ -1,7 +1,7 @@
-﻿namespace TimeMachine.Console
-{
-    using System;
-    
+﻿using System;
+
+namespace TimeMachine
+{   
     class Program
     {
         static void Main(string[] args)

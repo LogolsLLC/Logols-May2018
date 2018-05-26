@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\Logols\\May\\Examples\\OOP\\01_Constructor\\01_Constructor.csproj",
+      "projectUniqueName": "C:\\Code\\Logols\\May\\Examples\\OOP\\01_Constructor\\01_Constructor.csproj",
       "projectName": "01_Constructor",
-      "projectPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\01_Constructor\\01_Constructor.csproj",
+      "projectPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\01_Constructor\\01_Constructor.csproj",
       "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\01_Constructor\\obj\\",
+      "outputPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\01_Constructor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

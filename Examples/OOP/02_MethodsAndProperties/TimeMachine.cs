@@ -1,8 +1,8 @@
-namespace TimeMachine.Console
-{
-    using System;
-    using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
 
+namespace TimeMachine
+{
     public class TimeMachine
     {
         public List<int> TravelHistory {get; set;}

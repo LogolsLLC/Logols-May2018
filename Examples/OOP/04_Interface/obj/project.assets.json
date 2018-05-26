@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\Logols\\May\\Examples\\OOP\\04_Interface\\04_Interface.csproj",
+      "projectUniqueName": "C:\\Code\\Logols\\May\\Examples\\OOP\\04_Interface\\04_Interface.csproj",
       "projectName": "04_Interface",
-      "projectPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\04_Interface\\04_Interface.csproj",
+      "projectPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\04_Interface\\04_Interface.csproj",
       "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\04_Interface\\obj\\",
+      "outputPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\04_Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

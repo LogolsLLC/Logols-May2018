@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\Logols\\May\\Examples\\OOP\\02_MethodsAndProperties\\02_MethodsAndProperties.csproj",
+      "projectUniqueName": "C:\\Code\\Logols\\May\\Examples\\OOP\\02_MethodsAndProperties\\02_MethodsAndProperties.csproj",
       "projectName": "02_MethodsAndProperties",
-      "projectPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\02_MethodsAndProperties\\02_MethodsAndProperties.csproj",
+      "projectPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\02_MethodsAndProperties\\02_MethodsAndProperties.csproj",
       "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\02_MethodsAndProperties\\obj\\",
+      "outputPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\02_MethodsAndProperties\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
-namespace TimeMachine.Console
-{
-    using System;
-    using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
 
+namespace TimeMachine
+{
     public sealed class DirectRouteTimeMachine : TimeMachine
     {
 

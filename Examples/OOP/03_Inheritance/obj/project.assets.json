@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\Logols\\May\\Examples\\OOP\\03_Inheritance\\03_Inheritance.csproj",
+      "projectUniqueName": "C:\\Code\\Logols\\May\\Examples\\OOP\\03_Inheritance\\03_Inheritance.csproj",
       "projectName": "03_Inheritance",
-      "projectPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\03_Inheritance\\03_Inheritance.csproj",
+      "projectPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\03_Inheritance\\03_Inheritance.csproj",
       "packagesPath": "C:\\Users\\JMack\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\Logols\\May\\Examples\\OOP\\03_Inheritance\\obj\\",
+      "outputPath": "C:\\Code\\Logols\\May\\Examples\\OOP\\03_Inheritance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
