@@ -1,3 +1,5 @@
+use timemachine;
+
 select * 
 from timetraveler;
 
