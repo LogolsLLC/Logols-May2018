@@ -7,7 +7,7 @@ namespace TimeMachine.CommandLine
 {
     public class TimeTravelLogRepository : Repository
     {
-        public IEnumerable<TimeTravelLog> GetAll()
+        public List<TimeTravelLog> GetAll()
         {
             using (IDbConnection dbConnection = Connection)
             {
@@ -17,7 +17,7 @@ namespace TimeMachine.CommandLine
                     + "from timetravellog ttl "
                     + "inner join timetraveler tt "
 	                + "on ttl.TimeTravelerId = tt.TimeTravelerId;"
-                    , commandType: CommandType.Text);
+                    , commandType: CommandType.Text).ToList();
             }
         }
     }
