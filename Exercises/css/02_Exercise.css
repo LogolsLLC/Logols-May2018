@@ -1,0 +1,20 @@
+#header {
+    text-align: center;
+}
+
+.statusText {
+    color: darkgray;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+.statusImage {
+    /*float: right;  using float*/
+    order: 2;
+}
+
+.statusContainer {
+    display: flex;
+}

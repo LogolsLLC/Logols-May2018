@@ -1,0 +1,11 @@
+#header {
+    text-align: center;
+}
+
+.statusText {
+    color: darkgray;
+}
+
+thead {
+    background-color: lightgray;
+}

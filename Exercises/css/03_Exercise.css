@@ -1,0 +1,42 @@
+#header {
+    text-align: center;
+}
+
+.statusText {
+    color: darkgray;
+}
+
+thead {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.statusImage {
+    /*float: right;  using float*/
+    order: 2;
+}
+
+.statusContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusContent {
+    max-width: 400px;
+    line-height: 1.5em;
+}
+
+td, th {
+    padding: 10px 10px 10px 10px;    
+}
+
+table {
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tableLinks {
+    margin: 15px 10px 10px 10px;
+}
