@@ -1,0 +1,25 @@
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="CSharp.css" />
+      <script src="CSharpLevels.js"></script>
+      <script src="CSharp.js"></script>
+  </head>
+  <body>
+    <header>
+        C# Zombie Apocalypse
+        <div id="level">Level 1</div>
+    </header>
+    <div id="instructions" class="instructions">
+        <div id="textInstructions"></div>
+        <div id="failBox">Keep Trying...</div>
+    </div>
+    <div id="codeContainer" class="codeContainer"></div>
+  </body>
+  <script>
+    document.onreadystatechange = function () {
+        if (document.readyState == "interactive") {
+            logols.csharp.initialize();
+        }
+    }        
+  </script>
+</html>

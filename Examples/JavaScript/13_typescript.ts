@@ -1,3 +1,4 @@
+
 interface ITimeMachine
 {
     TravelHistory:number[];
@@ -34,7 +35,7 @@ class MultipleHopTimeMachine implements ITimeMachine
         this.hop(year);
     }    
     
-    public hop(year:number):void{
+    private hop(year:number):void{
         console.log("You are traveling to " + year);
         console.log("You have arrived");
         this.TravelHistory.push(year);
