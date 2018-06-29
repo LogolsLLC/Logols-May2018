@@ -9,10 +9,10 @@ import { PersonStatusService } from './services/PersonStatusService'
 })
 export class ZombieReportComponent {
   public title:string = 'Zombie Status Report';
-  public statuses:PersonStatus[];
+  public statuses:PersonStatus[] = [];
 
   public constructor(personStatusService: PersonStatusService) {
-    this.statuses = [];
+    //this.statuses = [];
     personStatusService.getAll().subscribe(result => {
       this.statuses.push(...result);
     }, error => console.error(error));
