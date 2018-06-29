@@ -7,19 +7,19 @@
   First Name:
 </div>
 <div>
-  <input id="FirstName" type="text" />
+  <input id="FirstName" type="text" [(ngModel)]="personStatus.firstName" />
 </div>
 <div>
   Last Name:
 </div>
 <div>
-  <input id="LastName" type="text" />
+  <input id="LastName" type="text" [(ngModel)]="personStatus.lastName" />
 </div>
 <div>
   Status:
 </div>
 <div>
-  <select id="Status">
+  <select id="Status" [(ngModel)]="personStatus.personStatusId">
       <option value="1">Alive</option>
       <option value="2">Zombie</option>
       <option value="3">Dead</option>
@@ -27,5 +27,5 @@
   </select>
 </div>
 <div>
-  <a href="#">Submit</a>
+  <a href="#" (click)="insertClick()">Submit</a>
 </div>

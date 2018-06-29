@@ -6,4 +6,6 @@ export class PersonStatus {
     public personStatusId:number;
 
     public statusDescription:string;
+
+    public personId:number;
 }

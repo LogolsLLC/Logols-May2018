@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ZombieReportComponent } from './zombieReport.component';
@@ -12,7 +13,7 @@ import { PersonStatusService } from './services/PersonStatusService';
 const appRoutes: Routes = [
   { path: 'addStatus', component: AddStatusComponent },
   { path: 'report', component: ZombieReportComponent },
-  { path: '', redirectTo: '/report', pathMatch: 'full' }
+  { path: '', component: ZombieReportComponent }
 ];
 
 @NgModule({
@@ -24,6 +25,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
