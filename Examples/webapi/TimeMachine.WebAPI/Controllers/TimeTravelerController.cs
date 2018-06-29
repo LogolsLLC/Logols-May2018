@@ -21,22 +21,6 @@ namespace TimeMachine.WebAPI.Controllers
         [HttpGet]
         public IEnumerable<TimeTraveler> Get()
         {
-            /* 
-            List<TimeTraveler> travelers = new List<TimeTraveler>();
-            travelers.Add(new TimeTraveler() 
-            { 
-                TimeTravelerId = 1,
-                FirstName = "test",
-                LastName = "test"
-             });
-            travelers.Add(new TimeTraveler() 
-            { 
-                TimeTravelerId = 2,
-                FirstName = "test2",
-                LastName = "test2"
-             });
-            return travelers;
-            */
             return timeTravelerRepository.GetAll();
         }
 
@@ -44,14 +28,6 @@ namespace TimeMachine.WebAPI.Controllers
         [HttpGet("{id}")]
         public TimeTraveler Get(int id)
         {
-            /* 
-            return new TimeTraveler() 
-            { 
-                TimeTravelerId = 1,
-                FirstName = "test",
-                LastName = "test"
-             };
-             */
             return timeTravelerRepository.Get(id);
         }
 
@@ -59,21 +35,21 @@ namespace TimeMachine.WebAPI.Controllers
         [HttpPost]
         public void Post([FromBody]TimeTraveler timeTraveler)
         {
-            //timeTravelerRepository.Insert(timeTraveler);
+            timeTravelerRepository.Insert(timeTraveler);
         }
 
         // PUT api/TimeTravelers/5
         [HttpPut]
         public void Put([FromBody]TimeTraveler timeTraveler)
         {
-            //timeTravelerRepository.Update(timeTraveler);
+            timeTravelerRepository.Update(timeTraveler);
         }
 
         // DELETE api/TimeTravelers/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            //timeTravelerRepository.Delete(id);
+            timeTravelerRepository.Delete(id);
         }
     }
 }

@@ -68,6 +68,9 @@
 
         public void Insert(TimeTraveler timeTraveler)
         {
+            System.Diagnostics.Debug.WriteLine(timeTraveler.FirstName);
+            System.Diagnostics.Debug.WriteLine(timeTraveler.LastName);
+            System.Diagnostics.Debug.WriteLine(timeTraveler.TimeTravelerId);            
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();

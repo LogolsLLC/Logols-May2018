@@ -16,7 +16,7 @@ const appRoutes: Routes = [
   { path: 'timeMachine', component: TimeMachineComponent },
   { path: 'traveler', component: TravelerComponent },
   { path: 'traveler/:id', component: TravelerComponent },
-  { path: '', redirectTo: '/timemachine', pathMatch: 'full' }
+  { path: '', component: TimeMachineComponent }  
 ];
 
 @NgModule({
