@@ -14,7 +14,11 @@ export class LogComponent {
   public constructor(logService: LogService) {
     this.logs = [];
     logService.getAll().subscribe(result => {
-      this.logs.push(...result);
-    }, error => console.error(error));
+      for(let log of result) {
+        this.logs.push(log);
+      }
+    }, error => {
+      console.error(error)
+    });
   }
 }

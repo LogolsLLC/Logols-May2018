@@ -12,10 +12,13 @@ export class ZombieReportComponent {
   public statuses:PersonStatus[] = [];
 
   public constructor(personStatusService: PersonStatusService) {
-    //this.statuses = [];
     personStatusService.getAll().subscribe(result => {
-      this.statuses.push(...result);
-    }, error => console.error(error));
+      for (let status of result) {
+        this.statuses.push(status);
+      }
+    }, error => { 
+      console.log(error)
+    });
     /*
     this.statuses = [
       {firstName:'Tom',lastName:'Masters',statusId:4,statusDescription:'Unknown'},
