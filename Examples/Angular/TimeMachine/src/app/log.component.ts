@@ -11,7 +11,7 @@ export class LogComponent {
   public title:string = 'Time Machine Travel Log';
   public logs:Log[];
 
-  public constructor(logService: LogService) {
+  public constructor(private logService: LogService) {
     this.logs = [];
     logService.getAll().subscribe(result => {
       for(let log of result) {
