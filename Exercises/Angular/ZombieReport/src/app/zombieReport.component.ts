@@ -9,13 +9,17 @@ import { PersonStatusService } from './services/PersonStatusService'
 })
 export class ZombieReportComponent {
   public title:string = 'Zombie Status Report';
+  public allStatuses:PersonStatus[] = [];
   public statuses:PersonStatus[] = [];
+  public filter:string = '';
 
   public constructor(personStatusService: PersonStatusService) {
     personStatusService.getAll().subscribe(result => {
       for (let status of result) {
-        this.statuses.push(status);
+        this.allStatuses.push(status);
       }
+
+      this.statuses = this.allStatuses;
     }, error => { 
       console.log(error)
     });
@@ -28,5 +32,15 @@ export class ZombieReportComponent {
       {firstName:'Steve',lastName:'Masters',statusId:2,statusDescription:'Zombie'}     
     ];
     */
+  }
+
+  public onSearchTextChanged():void {
+    if(this.filter.length > 0) {
+      this.statuses = this.allStatuses.filter(personStatus => 
+        `${personStatus.firstName} ${personStatus.lastName}`.indexOf(this.filter) >= 0);
+    }
+    else {
+      this.statuses = this.allStatuses;
+    }
   }
 }

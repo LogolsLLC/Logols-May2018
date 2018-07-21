@@ -8,6 +8,12 @@
   This report will notify you of the status of people that we are aware of.  
   Please enter anyone that we are missing.
 </p>
+<div>
+  Search:
+</div>
+<div>
+  <input id="searchText" (input)="onSearchTextChanged()" [(ngModel)]="filter" type="text" />
+</div>
 <table>
 <thead>
   <th>First Name</th>
